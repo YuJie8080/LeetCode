@@ -7,7 +7,6 @@ public class Solution2 {
      * */
     public int uniquePaths(int m, int n) {
         int[][] t = new int[m][n];
-        t[0][0] = 0;
         for (int i = 0; i < m; i++) t[i][0] = 1;
         for (int j = 0; j < n; j++) t[0][j] = 1;
         for (int i = 1; i < m; i++) {
