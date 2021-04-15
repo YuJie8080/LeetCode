@@ -1,6 +1,6 @@
 package leetcode057;
 
-import common.ShowDetail;
+import common.Output;
 
 public class Main {
 
@@ -10,7 +10,7 @@ public class Main {
         Solution s = new Solution();
         int[][] result = s.insert(intervals, newInterval);
         for (int i = 0; i < result.length; i++) {
-            ShowDetail.array(result[i]);
+            Output.array(result[i]);
         }
     }
 

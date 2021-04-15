@@ -2,7 +2,7 @@ package leetcode030;
 
 import java.util.List;
 
-import common.ShowDetail;
+import common.Output;
 
 public class Main {
 
@@ -11,7 +11,7 @@ public class Main {
         String[] words = { "c", "b", "a", "c", "a", "a", "a", "b", "c" };
         Solution s = new Solution();
         List<Integer> list = s.findSubstring(str, words);
-        ShowDetail.list(list);
+        Output.list(list);
     }
 
 }

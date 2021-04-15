@@ -1,6 +1,6 @@
 package leetcode037;
 
-import common.ShowDetail;
+import common.Output;
 
 public class Main {
 
@@ -14,7 +14,7 @@ public class Main {
         Solution s = new Solution();
         s.solveSudoku(board);
         for (int i = 0; i < board.length; i++) {
-            ShowDetail.array(board[i]);
+            Output.array(board[i]);
         }
     }
 

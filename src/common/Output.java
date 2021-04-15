@@ -2,7 +2,7 @@ package common;
 
 import java.util.List;
 
-public class ShowDetail {
+public class Output {
 
     public static void array(int[] array) {
         for (int i = 0; i < array.length; i++) {

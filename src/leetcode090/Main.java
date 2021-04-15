@@ -2,7 +2,7 @@ package leetcode090;
 
 import java.util.List;
 
-import common.ShowDetail;
+import common.Output;
 
 public class Main {
 
@@ -11,7 +11,7 @@ public class Main {
         Solution s = new Solution();
         List<List<Integer>> result = s.subsetsWithDup(nums);
         for (List<Integer> list : result) {
-            ShowDetail.list(list);
+            Output.list(list);
         }
     }
 
